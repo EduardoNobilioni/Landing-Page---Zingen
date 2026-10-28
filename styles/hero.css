@@ -1,9 +1,6 @@
 #hero {
     text-align: center;
 
-    /*
-    Seletor para selecionar somente o que tiver no SRC a palavra "music".
-    */
     & img[src*="music"]{
         width: 12.875rem;
     }
